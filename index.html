@@ -11,19 +11,19 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
-<body class="w3-content" style="max-width:1200px">
+<body class="w3-content" style="max-width:1200px;background-color: #222224;">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:3;width:250px;background-color: #222224;" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <img src="images/logo.jpg">
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Shirts</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">Shirts</a> -->
     <a href="#" class="w3-bar-item w3-button">Dresses</a>
     <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
-      Jeans <i class="fa fa-caret-down"></i>
+      Remeras <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
       <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
@@ -31,10 +31,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       <a href="#" class="w3-bar-item w3-button">Bootcut</a>
       <a href="#" class="w3-bar-item w3-button">Straight</a>
     </div>
-    <a href="#" class="w3-bar-item w3-button">Jackets</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">Jackets</a>
     <a href="#" class="w3-bar-item w3-button">Gymwear</a>
     <a href="#" class="w3-bar-item w3-button">Blazers</a>
-    <a href="#" class="w3-bar-item w3-button">Shoes</a>
+    <a href="#" class="w3-bar-item w3-button">Shoes</a> -->
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
@@ -57,23 +57,21 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
   <!-- Top header -->
-  <!--
-  <header class="w3-container w3-xlarge">
-    <p class="w3-left">Morrison</p>
+  <!-- <header class="w3-container w3-xlarge">
+    <p class="w3-left"><b>Morrison</b><br>Ropa de rock</p>
     <p class="w3-right">
       <i class="fa fa-shopping-cart w3-margin-right"></i>
       <i class="fa fa-search"></i>
     </p>
-  </header>
-  -->
+  </header> -->
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="images/jeans.jpg" alt="Jeans" style="padding:10px 0px;width:100%">
-    <div class="w3-display-topleft w3-text-black" style="padding:24px 48px;text-shadow: 2px 2px #ffffff">
-      <h1 class="w3-jumbo w3-hide-small">Morrison</h1>
-      <h1 class="w3-hide-large w3-hide-medium">Ropa de rock</h1>
-      <h1 class="w3-hide-small">👕 indumentaria rockera(fem)🤘<br>⚡Son cómodas, cancheras y super tendecieras<br>Y vos? Tenés la tuya? 💣💥</h1>
+    <img src="images/header-shirt.jpg" alt="Jeans" style="padding:10px 0px;width:100%">
+    <div class="w3-display-topleft w3-text-black" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small w3-black w3-padding-large">COLECCIÓN 2020</h1>
+      <!-- <h1 class="w3-hide-large w3-hide-medium">Ropa de rock</h1>
+      <h1 class="w3-hide-small">👕 indumentaria rockera(fem)🤘<br>⚡Son cómodas, cancheras y super tendecieras<br>Y vos? Tenés la tuya? 💣💥</h1> -->
       <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">ARTÍCULOS</a></p>
     </div>
   </div>
@@ -86,11 +84,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   <div class="w3-row w3-grayscale">
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/jeans1.jpg" style="width:100%">
+        <img src="images/shirt1.jpg" style="width:100%">
         <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/images/jeans2.jpg" style="width:100%">
+        <img src="images/shirt2.jpg" style="width:100%">
         <p>Mega Ripped Jeans<br><b>$19.99</b></p>
       </div>
     </div>
@@ -98,7 +96,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/images/jeans2.jpg" style="width:100%">
+          <img src="images/shirt3.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">New</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
@@ -107,19 +105,19 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <p>Mega Ripped Jeans<br><b>$19.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/images/jeans3.jpg" style="width:100%">
+        <img src="images/shirt4.jpg" style="width:100%">
         <p>Washed Skinny Jeans<br><b>$20.50</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/jeans3.jpg" style="width:100%">
+        <img src="images/shirt5.jpg" style="width:100%">
         <p>Washed Skinny Jeans<br><b>$20.50</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
-          <img src="/images/jeans4.jpg" style="width:100%">
+          <img src="images/shirt6.jpg" style="width:100%">
           <span class="w3-tag w3-display-topleft">Sale</span>
           <div class="w3-display-middle w3-display-hover">
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
@@ -131,11 +129,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/jeans4.jpg" style="width:100%">
+        <img src="images/shirt7.jpg" style="width:100%">
         <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
       </div>
       <div class="w3-container">
-        <img src="/images/jeans1.jpg" style="width:100%">
+        <img src="images/shirt8.jpg" style="width:100%">
         <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
       </div>
     </div>
