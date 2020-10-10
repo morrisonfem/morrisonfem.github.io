@@ -1,0 +1,29 @@
+.remeraFromGrid {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .2s ease;
+  backface-visibility: hidden;
+}
+
+.w3-display-container:hover .remeraFromGrid {
+  opacity: 0.65;
+}
+
+.expBttn {
+  transition: .5s ease;
+  opacity: 0;
+  border-radius: 25%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 5%;
+  right: 5%;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.w3-display-container:hover .expBttn {
+  opacity: 1;
+}
