@@ -11,10 +11,10 @@
 <script src="js/w3scripts.js"></script>
 <script> 
   $(function(){
-    $("#productGridHtml").load("html/productGrid.html"); 
+    $("#remeras").load("html/productGrid.html"); 
   });
   $(function(){
-    $("#footerHtml").load("html/footer.html"); 
+    $("#contacto").load("html/contact.html"); 
   });
 </script> 
 <style>
@@ -57,12 +57,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     </p>
   </header>
 
-  <div class="w3-container w3-text-grey" id="remeras">
-    <p></p>
-  </div>
-
   <!-- Product grid -->
-  <div id="productGridHtml"></div>
+  <div id="remeras"></div>
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -74,8 +70,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
 
   <!-- Footer -->
-  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-    <div id="footerHtml"></div>
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center">
+    <div id="contacto"></div>
   </footer>
 
   <div class="w3-black w3-center w3-padding-24">
