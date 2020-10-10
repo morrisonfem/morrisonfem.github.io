@@ -11,7 +11,10 @@
 <script src="js/w3scripts.js"></script>
 <script> 
   $(function(){
-    $("#productGridHtml").load("productGrid.html"); 
+    $("#productGridHtml").load("html/productGrid.html"); 
+  });
+  $(function(){
+    $("#footerHtml").load("html/footer.html"); 
   });
 </script> 
 <style>
@@ -63,27 +66,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
   <!-- Footer -->
   <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-    <div class="w3-row-padding">
-      <div class="w3-col s6">
-        <h4>Mandanos un WhatsApp</h4>
-        <a href="https://api.whatsapp.com/send?phone=5493364280183&text=Hola%20me%20interesa%20comprarte%20unas%20remeras">
-          <img src="images/whatsAppLogo.png" style="width:17%;">
-        </a>
-        <h5>+54 9 336 428-0183</h5>
-      </div>
-
-      <div class="w3-col s6">
-        <h4>Seguinos en instagram</h4>
-        <a href="https://www.instagram.com/morrison.fem/">
-          <img src="images/instagramLogo.png" style="width:17%;">
-        </a>
-        <h5>morrison.fem</h5>
-      </div>
-          <!-- <a href="https://www.instagram.com/morrison.fem/"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a> -->
-
-    </div>
+    <div id="footerHtml"></div>
   </footer>
 
+  <div class="w3-black w3-center w3-padding-24">Morrison. Villa Constitución</div>
   <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
   <!-- End page content -->
