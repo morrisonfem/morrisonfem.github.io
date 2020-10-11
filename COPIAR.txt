@@ -1,0 +1,11 @@
+
+  <div class="w3-col l3 s6">
+    <div class="w3-container">
+      <div class="w3-display-container">
+        <img src="images/{NOMBRE_ARCHIVO}.jpg" class="remeraFromGrid" onclick="zoomImage(this);" style="width:100%" alt="{DESCRIPCION}">
+        <span class="w3-tag {w3-blue,w3-red,w3-black} w3-display-topleft">{TAG}</span> # OPCIONAL
+        <i class="fa fa-expand expBttn w3-black"></i>
+      </div>
+      <p>{NOMBRE}<br><b>${PRECIO}</b></p>
+    </div>
+  </div>
