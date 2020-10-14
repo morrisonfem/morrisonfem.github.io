@@ -25,6 +25,7 @@ document.getElementById("myOverlay").style.display = "none";
 function zoomImage(element) {
     document.getElementById("img01").src = element.src;
     document.getElementById("modal01").style.display = "block";
+    document.getElementById("wh-widget-send-button-iframe").style.display = "none";
     var captionText = document.getElementById("caption");
     captionText.innerHTML = element.alt;
 }
